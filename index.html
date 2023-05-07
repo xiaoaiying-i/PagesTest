@@ -3,32 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>margin</title>
+  <title>PagesTest</title>
   <style>
-    *{
-      margin: 0;
-      padding: 0; 
-    }
-    /* 父容器样式 */
-    .container{
-      height: 800px;
-      /* padding: 1px; */
-    }
-    /* 子容器样式 */
-    .son{
-      width: 300px;
-      height: 300px;
-	  border: 1px solid red;
-      /* 水平垂直居中 */
-      margin: 250px auto;
-    }
+    *{ margin: 0;padding: 0; }
   </style>
 </head>
 <body>
     <!-- 父容器 -->
-    <div class="container">
+    <div style="height: 800px;">
       <!-- 子容器 -->
-      <div class="son">
+      <div style="width: 300px;height: 300px; border: 1px solid red;margin: 250px auto;">
 		<h1 style="text-align: center">Hello World</h1>
 		<br/>
 		<a style="display: block; width: 100%; text-align: center" 
